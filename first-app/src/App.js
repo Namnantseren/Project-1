@@ -1,32 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 
+import logo from './logo.svg';
+import './App.css';
+
 function App() {
-  function legendary(){
-    const hoho = document.getElementById("hoho");
-
-    const fStyle = {
-      color: "green",
-      fontSize: "50px"
-    }
-
-    const style1 = {
-      color: "red",
-      fontSize: "10px"
-    }
-
-    if(hoho.includes("legendary")){
-      return fStyle; 
-    }else {
-      return style1;
-    }
+  let name = "Legendary man lives once"
+  let style = {
+    color: name.includes("Legendary") ? "green" : "white",
+    fontSize: name.includes("Legendary") ? "56px" : "16px",
   }
 
   return (
     <div className="App">
-      <h1 id="hoho" style={legendary()} >legendary halo im uncle roger</h1>
+      <h1 style={style}>{name}</h1>
     </div>
   );
 }
+
 
 export default App;
