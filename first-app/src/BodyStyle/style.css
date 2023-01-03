@@ -1,0 +1,29 @@
+.midBody {
+    margin: auto;
+    width: 1000px;
+    height: 99vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+
+.darkCol {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+li {
+    color: gray;
+    display: flex;
+}
+
+.shortHand {
+    height: 50px;
+    top: 0;
+}

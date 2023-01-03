@@ -1,22 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
-
-import logo from './logo.svg';
 import './App.css';
+import Header from './Component/Header.jsx';
+import Body from './Main/body';
 
 function App() {
-  let name = "Legendary man lives once"
-  let style = {
-    color: name.includes("Legendary") ? "green" : "white",
-    fontSize: name.includes("Legendary") ? "56px" : "16px",
-  }
+  // let name = "Legendary Andy"
+  // let style = {
+  //   color: name.includes("Legendary") ? "green" : "red",
+  //   fontSize: name.includes("Legendary") ? "56px" : "16px",
+  // }
 
   return (
     <div className="App">
-      <h1 style={style}>{name}</h1>
+      <Header/>
+      <Body/>
+      {/* <h1 style={style}>{name}</h1> */}
     </div>
+    
   );
 }
-
 
 export default App;

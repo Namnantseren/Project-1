@@ -1,0 +1,77 @@
+
+header ul {
+    list-style: none;
+    gap: 5px;
+    font-size: 15px;
+    padding-right: 10px;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mixBtn {
+    height: 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+img {
+    height: 55px;
+    width: 150px;
+}
+
+header {
+    gap: 5px;
+    box-shadow:  1px 6px 19px #828282,
+             -26px -26px 30px #ffffff;
+    
+}
+
+.second {
+    margin-left: 20px;
+}
+
+.logBtn {
+    background-color: rgb(230, 246, 246);
+    border:1px solid rgb(173, 173, 238);
+}
+
+.signBtn {
+    background-color: rgb(83, 214, 234);
+    color: white;
+}
+
+.third {
+    margin-left: 20px;
+}
+
+input {
+    width: 650px;
+    height: 30px;
+    border-radius: 4px;
+    border: 0;
+    border: 1px solid gray;
+}
+
+.search {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+#text1 {
+    background-image:url(../Search.png);
+    background-position: 5px;
+    padding-left: 30px;
+    background-size: 18px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+/* Header --- END  */
