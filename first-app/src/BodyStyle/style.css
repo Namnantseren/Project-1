@@ -1,12 +1,18 @@
 .midBody {
     margin: auto;
-    width: 1000px;
+    width: 960px;
     height: 99vh;
     background-color: antiquewhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 1px solid gray;
+    padding: 30px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.split {
+    display: flex;
 }
 
 .darkCol {
@@ -24,6 +30,145 @@ li {
 }
 
 .shortHand {
-    height: 50px;
-    top: 0;
+    width: 727px;
+    height: 90vh;
 }
+
+.allQues {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.first {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.lastMore {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn {
+    background-color: rgb(83, 214, 234);
+    color: white;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.question {
+    display: flex;
+}
+
+.newest {
+    margin: 10px 0px 0px 55px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    height: 35px;
+}
+
+.borderGray {
+    border: 1px solid gray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.filter {
+    margin: 10px 0px 0px 20px;
+    height: 37px;
+    border: 1px solid rgb(36, 152, 197);
+    background-color: rgb(222, 243, 243);
+    border-radius: 5px;
+}
+/* Right Side  */
+
+.rightSS {
+    width: 300px;
+    height: 650px;
+}
+
+.rightSide {
+    width: 300px;
+    height: 296px;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.rightBotn {
+    width: 300px;
+    height: 376px;
+    background-color: red;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+/* Right Side  */
+
+
+/* Middle comment*/
+
+
+.comment {
+    width: 606px;
+    height: 139px;
+    padding: 16px;
+    border: 1px solid gray;
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-comment {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+    width: 108px;
+}
+
+.upload {
+    margin-top: 0;
+}
+
+.midCom {
+    margin: 0;
+}
+
+.mt {
+    margin-top: 10px;
+}
+
+.lore {
+    padding-left: 35px;
+    font-size: 13px;
+}
+
+.innerBtn {
+    color: rgb(39, 103, 187);
+    background-color: rgb(132, 178, 231);
+    border: 0;
+    margin-right: 5px;
+    height: 23.59px;
+    border-radius: 3px;
+}
+
+.last {
+    font-size: 13px;
+    margin-left: 35px;
+    align-items: center;
+}
+
+.last img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    margin-right: 5px;
+}
+
+.lastGroup {
+    margin-left: 35px;
+}
+
+/* Middle comment*/
