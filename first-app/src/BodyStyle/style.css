@@ -1,10 +1,46 @@
 .midBody {
     margin: auto;
-    width: 960px;
+    width: 1060px;
     height: 99vh;
-    background-color: antiquewhite;
-    border: 1px solid gray;
-    padding: 30px;
+    padding: 5px 0px 0px 0px;
+    margin-left: 0;
+}
+
+.font {
+    font-size: 13px;
+}
+
+.font-2 {
+    font-size: 15px;
+}
+
+.overflow-div {
+    height: 41px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 209, 138);
+    border-radius: 10px 10px 0px 0px;
+    border: 1px solid rgb(247, 209, 138);
+}
+
+.upperOver {
+    height: 130px;
+}
+
+.underflow-div {
+    height: 41px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 209, 138);
+    border: 1px solid rgb(247, 209, 138);
+}
+
+.overflow {
+    width: 120px;
+}
+
+.font1 {
+    font-size: 12px;
 }
 
 h2 {
@@ -32,6 +68,8 @@ li {
 .shortHand {
     width: 727px;
     height: 90vh;
+    margin-top: 16px;
+    margin-right: 20px;
 }
 
 .allQues {
@@ -40,6 +78,7 @@ li {
     justify-content: center;
     justify-content: space-between;
     padding-right: 20px;
+    margin-left: 15px;
 }
 
 .first {
@@ -63,8 +102,12 @@ li {
     display: flex;
 }
 
+.left-22 {
+    margin-left: 15px;
+}
+
 .newest {
-    margin: 10px 0px 0px 55px;
+    margin: 10px 0px 0px 105px;
     border: 1px solid gray;
     border-radius: 7px;
     height: 35px;
@@ -79,7 +122,7 @@ li {
 }
 
 .filter {
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 18px;
     height: 37px;
     border: 1px solid rgb(36, 152, 197);
     background-color: rgb(222, 243, 243);
@@ -90,22 +133,97 @@ li {
 .rightSS {
     width: 300px;
     height: 650px;
+    margin-top: 15px;
 }
 
 .rightSide {
     width: 300px;
     height: 296px;
-    background-color: orange;
+    background-color: rgb(243, 226, 195);
     border-radius: 5px;
+    box-shadow:  5px 5px 15px #d0d0d0,
+    5px -5px 15px #f0f0f0;
+}
+
+.over img{
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+}
+.over {
+    align-items: center;
+    padding-left: 10px;
+}
+.over p {
+    margin: 10px 0px 10px 10px;
 }
 
 .rightBotn {
     width: 300px;
     height: 376px;
-    background-color: red;
+    background-color: whitesmoke;
     margin-top: 16px;
     border-radius: 5px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow:  5px 5px 15px #d0d0d0,
+    5px -5px 15px #f0f0f0;
 }
+
+.under {
+    border: 1px solid gray;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.under-imm {
+    width: 300px;
+    padding: 15px 20px 0px 15px;
+}
+
+.under-imm img {
+    width: 40px;
+    height: 25px;
+    margin-top: 5px;
+}
+
+.see-all {
+    margin-right: 20px;
+}
+
+.three {
+    margin-bottom: 0;
+}
+
+.five {
+    width: 80px;
+}
+
+.google-collect p {
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.joinBtn {
+    width: 44px;
+    height: 35px;
+    border:1px solid blue;
+    color: blue;
+    border-radius: 4px;
+}
+
+.split-join {
+    width: 225px;
+    justify-content: space-between;
+}
+
+.gg-cloud {
+    padding: 0px 14px 0px 14px;
+}
+
+.gg-cloud p {
+    margin-top: 0;
+}
+
 /* Right Side  */
 
 
@@ -113,18 +231,18 @@ li {
 
 
 .comment {
-    width: 606px;
+    width: 673px;
     height: 139px;
     padding: 16px;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     display: flex;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .left-comment {
     display: flex;
     flex-direction: column;
-    font-size: 13px;
+    font-size: 12px;
     width: 108px;
 }
 
@@ -134,6 +252,7 @@ li {
 
 .midCom {
     margin: 0;
+    right: 0;
 }
 
 .mt {
@@ -156,7 +275,7 @@ li {
 
 .last {
     font-size: 13px;
-    margin-left: 35px;
+    margin-left: 85px;
     align-items: center;
 }
 
@@ -170,5 +289,7 @@ li {
 .lastGroup {
     margin-left: 35px;
 }
+
+
 
 /* Middle comment*/
