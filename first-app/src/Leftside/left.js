@@ -24,6 +24,24 @@ export default function left() {
                 <img src="../earth-png.webp" alt="" />
                 <p class="font13 expo">Explore Collection</p>
             </div>
+            <div class="font13 flex">
+                <p>TEAMS</p>
+            </div>
+            <div class="ad">
+                <div class="startCol">
+                    <div class="font13">
+                    <strong class="font13">Stack Overflow for Teams</strong>
+                    – Start collaborating and sharing organizational knowledge.
+                    </div>
+                </div>
+                <div class="ad-image">
+                    <img src="../ad.svg" alt="" />
+                </div>
+                <button class="font11 createFree">Create a free Team</button>
+                <div class="font11">
+                    <p>Why Teams?</p>
+                </div>
+            </div>
         </div>
     )
 }

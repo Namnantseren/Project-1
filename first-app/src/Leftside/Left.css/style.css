@@ -36,6 +36,7 @@
 
 .earth {
     align-items: center;
+    height: 20px;
 }
 
 .first1 {
@@ -63,4 +64,31 @@
 
 .expo {
     margin-left: 15px;
+}
+
+.ad {
+    width: 164px;
+    height: 290px;
+    border-radius: 5px;
+    border-top:1px solid gray;
+    border-left:1px solid gray;
+    border-bottom:1px solid gray;
+}
+
+.ad-image img {
+    width: 139px;
+    height: 114px;
+}
+
+.createFree {
+    color: white;
+    background-color: orange;
+    border: 0;
+    width: 139px;
+    height: 27px;
+    border-radius: 3px;
+}
+
+.startCol {
+    padding: 10px 10px 0px 10px;
 }
